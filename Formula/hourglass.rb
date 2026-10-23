@@ -6,20 +6,20 @@ class Hourglass < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/jackjakarta/hourglass/releases/download/0.1.1/hourglass-darwin-arm64.tar.gz"
-      sha256 "f407ef9c55334d152b97a789d816078c2583b9ee4e4f2f2ee6327f4987d234df"
+      sha256 "206ec6df358b1b81af928bc4df7e6185a08c43d0a4ad6c17432b5e441b991080"
     else
       url "https://github.com/jackjakarta/hourglass/releases/download/0.1.1/hourglass-darwin-amd64.tar.gz"
-      sha256 "e2a0e7029f054453d8053125ea72f836d1bb261062187a0d7da9faf766a6f331"
+      sha256 "f311b63f5cc704693d594fbd158275584a8b7f9e1254cc3123e485d7fed47353"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/jackjakarta/hourglass/releases/download/0.1.1/hourglass-linux-arm64.tar.gz"
-      sha256 "3df3689c8bcd13917ee86c46efe4078b680bf4bf033886912cd21908849076a9"
+      sha256 "dbca2e10a1f255b7fd6a4f198bfdde694cc965b4ca0dcbc48df9ceb613ac9020"
     else
       url "https://github.com/jackjakarta/hourglass/releases/download/0.1.1/hourglass-linux-amd64.tar.gz"
-      sha256 "5caf64ad7a3d138deff14eee264cb76c751785a32050d6960f1b649873c46da8"
+      sha256 "87d6dd56624d3ebcde43088a3f8b86f7826ba8b54a4e153ddee54f7216424573"
     end
   end
 
